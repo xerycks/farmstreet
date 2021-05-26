@@ -17,7 +17,7 @@ const client = new MongoClient(url, {
 function findUser(db, email, callback) {
   const collection = db.collection('user');
   collection.findOne({email}, callback);
-}
+}   
 
 function createUser(db, email, password, callback) {
   const collection = db.collection('user');

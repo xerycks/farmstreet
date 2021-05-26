@@ -3,3 +3,8 @@
 html {
     scroll-behavior: smooth;
 }
+
+.loginform {
+    border: solid 2px #66cb9f;
+    border-radius: 20px;
+}

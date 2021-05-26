@@ -3,7 +3,7 @@ const Navbar = () => {
         <>
           <nav className="navbar navbar-expand-lg navbar-light px-0 py-3">
     <div className="container-xl max-w-screen-xl">        
-        <h1 className="navbar-brand text-lg font-bolder" href="#">
+        <h1 className="h2 text-success font-bolder" href="#">
             FarmStreeT
         </h1>        
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a className="nav-item nav-link" href="/signup">Register Now</a>
             </div>            
             <div className="d-flex align-items-lg-center mt-3 mt-lg-0">
-                <a href="/login" className="btn btn-sm btn-primary w-full w-lg-auto">
+                <a href="/login" className="btn btn-sm btn-success w-full w-lg-auto">
                     Login
                 </a>
             </div>

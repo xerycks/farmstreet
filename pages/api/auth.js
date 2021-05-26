@@ -4,7 +4,6 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const jwtSecret = 'FARMSTREET0PBL';
 
-const saltRounds = 10;
 const url = process.env.MONGODB_URL;
 const dbName = 'farmstreetDB';
 
