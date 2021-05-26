@@ -28,7 +28,7 @@ const Signup = () => {
         if (data && data.token) {
           //set cookie
           cookie.set('token', data.token, {expires: 2});
-          Router.push('/');
+          Router.push('/dashboard');
         }
       });
   }

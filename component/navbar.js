@@ -12,24 +12,24 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarCollapse">            
             <ul className="navbar-nav mx-lg-auto">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">Home</a>
+                    <a className="nav-link active" href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
+                    <a className="nav-link" href="#about">About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Contact</a>
+                    <a className="nav-link" href="#contact">Contact</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">How This Works ?</a>
+                    <a className="nav-link" href="#howthisworks">How This Works ?</a>
                 </li>
             </ul>            
             <div className="navbar-nav ms-lg-4">
-                <a className="nav-item nav-link" href="#">Sign in</a>
+                <a className="nav-item nav-link" href="/signup">Register Now</a>
             </div>            
             <div className="d-flex align-items-lg-center mt-3 mt-lg-0">
-                <a href="#" className="btn btn-sm btn-primary w-full w-lg-auto">
-                    Register
+                <a href="/login" className="btn btn-sm btn-primary w-full w-lg-auto">
+                    Login
                 </a>
             </div>
         </div>
