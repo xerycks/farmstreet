@@ -1,30 +1,27 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
-export default function Home() {
-  return (
-    <div classNameName="row">
-        <nav className="navbar navbar-expand-lg navbar-light px-0 py-3">
+const Navbar = () => {
+    return ( 
+        <>
+          <nav className="navbar navbar-expand-lg navbar-light px-0 py-3">
     <div className="container-xl max-w-screen-xl">        
-        <a className="navbar-brand" href="#">
-            <img src="https://preview.webpixels.io/web/img/logos/clever-dark.svg" className="h-8" alt="..." />
-        </a>        
+        <h1 className="navbar-brand text-lg font-bolder" href="#">
+            FarmStreeT
+        </h1>        
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>        
         <div className="collapse navbar-collapse" id="navbarCollapse">            
             <ul className="navbar-nav mx-lg-auto">
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Home</a>
+                    <a className="nav-link active" href="#">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Product</a>
+                    <a className="nav-link" href="#">About</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Features</a>
+                    <a className="nav-link" href="#">Contact</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Pricing</a>
+                    <a className="nav-link" href="#">How This Works ?</a>
                 </li>
             </ul>            
             <div className="navbar-nav ms-lg-4">
@@ -38,7 +35,8 @@ export default function Home() {
         </div>
     </div>
 </nav>
-
-    </div>
-  )
+        </>
+     );
 }
+ 
+export default Navbar;
