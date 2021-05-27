@@ -11,10 +11,12 @@ const Login = () => {
   function handleSubmit(e) {
     e.preventDefault();
     //call api
+    
     fetch('/api/auth', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        'Accept': 'application/json'
       },
       body: JSON.stringify({
         email,
