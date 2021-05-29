@@ -67,10 +67,7 @@ export default (req, res) => {
               const user = creationResult.ops[0];
               const token = jwt.sign(
                 {userId: user.userId, email: user.email},
-                jwtSecret,
-                {
-                  expiresIn: 3000, //50 minutes
-                },
+                jwtSecret
               );
               res.status(200).json({token});
               return;

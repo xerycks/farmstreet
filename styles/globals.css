@@ -9,13 +9,15 @@ html {
     border-radius: 20px;
 }
 
-body {
-    background-color: #eee
+.card {
+    border: 1px solid rgb(207, 255, 179);
+    border-radius: 10px;
 }
 
-.card {
-    border: none;
-    border-radius: 10px
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 20px -5px rgb(190, 190, 190);
+    transition-duration: .35s;
 }
 
 .c-details span {
@@ -34,16 +36,27 @@ body {
     font-size: 39px
 }
 
+.icon img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
 .badge span {
     background-color: #fffbec;
-    width: 60px;
+    width: min-content;
     height: 25px;
-    padding-bottom: 3px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     display: flex;
     color: #fed85d;
     justify-content: center;
     align-items: center
+}
+
+progress {
+    color: #66cb9f;
+    background: #66cb9f;
 }
 
 .progress {
@@ -53,11 +66,18 @@ body {
 
 .progress-bar {
     width: 100%;
-    color: white;
+}
+
+.progress-bar::-moz-progress-bar {
+    background: #66cb9f !important;
 }
 
 .progress-bar::-webkit-progress-bar {
-    background: white !important;
+    background: #66cb9f !important;
+}
+
+.progress-bar::-webkit-progress-inner-element{
+    background: #66cb9f !important;
 }
 
 .progress div {

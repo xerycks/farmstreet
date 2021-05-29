@@ -37,14 +37,38 @@ function Home() {
                             <a className="nav-item nav-link" href="/news">News</a>
                         </div>           
                         <div className="navbar-nav ms-lg-4">
-                            <a onClick={() => {cookie.remove('token');revalidate();}} className="btn btn-sm btn-outline-success" href="#">Logout</a>
+                            <a onClick={() => {cookie.remove('token');revalidate();}} className="btn btn-sm btn-outline-success">Logout</a>
                         </div>
                     </div>
                 </div>
             </nav>
             <div className="container mt-5 mb-3">
                 <div className="row">
-                    <a  className="col-md-6 col-lg-4 p-4">
+                    <a className="col-md-6 col-lg-4 px-lg-8 p-4" href="#">
+                        <div>
+                        <div className="card p-3 mb-2">
+                            <div className="d-flex justify-content-between">
+                                <div className="d-flex flex-row align-items-center">
+                                    <div className="icon"><img src="https://images.unsplash.com/photo-1492496913980-501348b61469?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1"/></div>
+                                    <div className="ms-2 c-details">
+                                        <h6 className="mb-0 text-sm font-bold">Delhi, India</h6>
+                                    </div>
+                                </div>
+                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+44.95%</span> </div>
+                            </div>
+                            <div className="mt-5">
+                                <h3 className="heading">Aashna Vaid<br/><span className="lead text-sm">5 years</span></h3>
+                                <div className="mt-5">
+                                    <div className="progress">
+                                        <progress className="progress-bar progress-bar-striped bg-primary" value="9" max="10"></progress>
+                                    </div>
+                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    </a>
+                    <a  className="col-md-6 col-lg-4 px-lg-8 p-4" href="#">
                         <div>
                         <div className="card p-3 mb-2">
                             <div className="d-flex justify-content-between">
@@ -68,7 +92,7 @@ function Home() {
                         </div>
                     </div> 
                     </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
+                    <a  className="col-md-6 col-lg-4 px-lg-8 p-4" href="#">
                         <div>
                         <div className="card p-3 mb-2">
                             <div className="d-flex justify-content-between">
@@ -92,7 +116,7 @@ function Home() {
                         </div>
                     </div> 
                     </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
+                    <a  className="col-md-6 col-lg-4 px-lg-8 p-4" href="#">
                         <div>
                         <div className="card p-3 mb-2">
                             <div className="d-flex justify-content-between">
@@ -116,415 +140,6 @@ function Home() {
                         </div>
                     </div> 
                     </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    <a  className="col-md-6 col-lg-4 p-4">
-                        <div>
-                        <div className="card p-3 mb-2">
-                            <div className="d-flex justify-content-between">
-                                <div className="d-flex flex-row align-items-center">
-                                    <div className="icon"> <i className="bi bi-mailchimp"></i> </div>
-                                    <div className="ms-2 c-details">
-                                        <h6 className="mb-0 text-sm font-bold">Raghuvindra Singh</h6>
-                                    </div>
-                                </div>
-                                <div className="badge"> <span className="rounded-pill bg-soft-success text-dark">+4.95%</span> </div>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="heading">Senior Product<br/>Designer-Singapore</h3>
-                                <div className="mt-5">
-                                    <div className="progress">
-                                        <progress className="progress-bar" value="100" max="200"></progress>
-                                    </div>
-                                    <div className="mt-3"> <span className="text1">₹ 4,50,000 <span className="text2">/ 1000000</span></span> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </a>
-                    
                 </div>
             </div>
           <p>Welcome {data.email}!</p>

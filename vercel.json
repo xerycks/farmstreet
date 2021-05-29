@@ -1,0 +1,7 @@
+{
+  "name": "MONGODB_URL",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "MONGODB_URL"
+  }
+}

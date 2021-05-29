@@ -34,35 +34,6 @@ const Signup = () => {
       });
   }
   return (
-    // <form onSubmit={handleSubmit}>
-    //   <p>Sign Up</p>
-    //   <label htmlFor="email">
-    //     email
-    //     <input
-    //       value={email}
-    //       onChange={(e) => setEmail(e.target.value)}
-    //       name="email"
-    //       type="email"
-    //     />
-    //   </label>
-
-    //   <br />
-
-    //   <label htmlFor="password">
-    //     password
-    //     <input
-    //       value={password}
-    //       onChange={(e) => setPassword(e.target.value)}
-    //       name="password"
-    //       type="password"
-    //     />
-    //   </label>
-
-    //   <br />
-
-    //   <input type="submit" value="Submit" />
-    //   {signupError && <p style={{color: 'red'}}>{signupError}</p>}
-    // </form>
     <>
         <Navbar />
     <div className="container py-10">
@@ -81,6 +52,7 @@ const Signup = () => {
                 </div>
                 <div>
                     <input type="submit" value="Register" className="btn btn-success w-full" />
+                    {signupError && <p style={{color: 'red'}}>{signupError}</p>}
                 </div>
             </form>
             </div>
