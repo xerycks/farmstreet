@@ -1,7 +1,7 @@
 {
-  "name": "MONGODB_URL",
+  "name": "my-mongodb-uri",
   "version": 2,
   "env": {
-    "MONGODB_URI": "MONGODB_URL"
+    "MONGODB_URI": "mongodb+srv://xerycks:12345678@cluster0.cnzva.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   }
 }
